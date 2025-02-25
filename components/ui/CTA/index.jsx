@@ -1,6 +1,6 @@
 import SectionWrapper from "../../SectionWrapper"
 import NavLink from "../NavLink"
-import homeKugan from "../../../public/homeKugan.png"
+import homeKugan from "/public/homeKugan.png"
 import Image from "next/image"
 
 const CTA = () => {
