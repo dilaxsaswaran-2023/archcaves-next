@@ -8,7 +8,7 @@ const Hero = () => (
                     Build and scale your next business idea faster
                 </h1>
                 <p className="max-w-xl mx-auto">
-                    Blinder making it simple for you to build and grow your SaaS applications, or any business idea.
+                    Archcaves making it simple for you to build and grow your SaaS applications, or any business idea.
                 </p>
                 <div className="flex items-center justify-center gap-x-3 font-medium text-sm">
                     <NavLink
