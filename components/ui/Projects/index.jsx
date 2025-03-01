@@ -32,6 +32,14 @@ const Projects = () => {
     return (
         <SectionWrapper>
             <div id="projects" className="custom-screen text-gray-600">
+                <div className="max-w-2xl sm:text-center md:mx-auto mb-8">
+                    <h2 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
+                        See our ongoing projects
+                    </h2>
+                    <p className="mt-3 text-gray-600">
+                        We are working on some exciting projects that will showcase our expertise and commitment to technology.
+                    </p>
+                </div>
                 <ul className="grid gap-x-12 gap-y-8 sm:grid-cols-2 lg:grid-cols-3">
                     {
                         projects.map((item, idx) => (
