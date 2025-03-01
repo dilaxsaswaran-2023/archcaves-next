@@ -1,8 +1,8 @@
 import SectionWrapper from "../../SectionWrapper"
 
-const Features = () => {
+const Projects = () => {
 
-    const features = [
+    const projects = [
         {
             icon:
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
@@ -31,10 +31,10 @@ const Features = () => {
 
     return (
         <SectionWrapper>
-            <div id="features" className="custom-screen text-gray-600">
+            <div id="projects" className="custom-screen text-gray-600">
                 <ul className="grid gap-x-12 gap-y-8 sm:grid-cols-2 lg:grid-cols-3">
                     {
-                        features.map((item, idx) => (
+                        projects.map((item, idx) => (
                             <li key={idx} className="space-y-3">
                                 <div className="w-12 h-12 border text-indigo-600 rounded-full flex items-center justify-center">
                                     {item.icon}
@@ -54,4 +54,4 @@ const Features = () => {
     )
 }
 
-export default Features
+export default Projects

@@ -9,7 +9,7 @@ import figma from "../../../public/icons/figma.svg"
 
 const ToolKit = () => {
 
-    const features = [
+    const projects = [
         {
             icon: wordpress,
             title: "Wordpress",
@@ -44,10 +44,10 @@ const ToolKit = () => {
 
     return (
         <SectionWrapper>
-            <div id="toolkit" className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
+            <div id="methods" className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
                 <div className="max-w-2xl mx-auto space-y-3 sm:text-center">
                     <h2 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-                        Work with the best toolkit
+                        Work with the best methods
                     </h2>
                     <p>
                         These are a few of our favourite things
@@ -56,7 +56,7 @@ const ToolKit = () => {
                 <div className="mt-12">
                     <ul className="grid gap-y-8 gap-x-12 sm:grid-cols-2 lg:grid-cols-3">
                         {
-                            features.map((item, idx) => (
+                            projects.map((item, idx) => (
                                 <li key={idx} className="flex gap-x-4">
                                     <div className="flex-none w-12 h-12 gradient-border rounded-full flex items-center justify-center">
                                         <Image src={item.icon} alt={item.title} />

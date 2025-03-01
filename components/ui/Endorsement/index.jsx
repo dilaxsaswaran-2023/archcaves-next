@@ -1,8 +1,8 @@
 import SectionWrapper from "../../SectionWrapper"
 
-const Testimonials = () => {
+const Endorsement = () => {
 
-    const testimonials = [
+    const endorsement = [
         {
             avatar: "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
             name: "Alex wonderson",
@@ -21,29 +21,11 @@ const Testimonials = () => {
             title: "System manger",
             quote: "My business was in a dire situation. I had no idea what to do, and I felt like I was losing hope. Then I found this Startup and everything changed. It helped me create automated sales."
         },
-        {
-            avatar: "https://randomuser.me/api/portraits/women/79.jpg",
-            name: "Angela stian",
-            title: "Product designer",
-            quote: "One day, my company was about to go under and I had no idea what to do. I found Archcaves and it helped me get my business back on track.Now, my company is flourishing and I see new opportunities."
-        },
-        {
-            avatar: "https://images.unsplash.com/photo-1464863979621-258859e62245?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80",
-            name: "Jurica koletic",
-            title: "Founder of Let’s code",
-            quote: "In these difficult economic times, doing business is tough. Funding is hard to come by and many entrepreneurs are struggling to keep their doors open. but when I found this startup everything changed."
-        },
-        {
-            avatar: "https://images.unsplash.com/photo-1590038767624-dac5740a997b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
-            name: "Kavi laron",
-            title: "Full stack engineer",
-            quote: "We all know how costly it is to find good help. I was faced with this problem when I lost my data entry staff and my business was on the brink of going under. Thankfully, Archcaves saved the day."
-        },
     ]
 
     return (
         <SectionWrapper className="pb-0">
-            <div id="testimonials" className="max-w-screen-xl mx-auto px-4 md:px-8">
+            <div id="endorsement" className="max-w-screen-xl mx-auto px-4 md:px-8">
                 <div className="max-w-2xl sm:text-center md:mx-auto">
                     <h2 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
                         See what others saying about us
@@ -55,7 +37,7 @@ const Testimonials = () => {
                 <div className="mt-12">
                     <ul className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                         {
-                            testimonials.map((item, idx) => (
+                            endorsement.map((item, idx) => (
                                 <li key={idx} className="bg-white border p-4 rounded-xl">
                                     <figure>
                                         <div className="flex items-center gap-x-4">
@@ -81,4 +63,4 @@ const Testimonials = () => {
     )
 }
 
-export default Testimonials
+export default Endorsement
